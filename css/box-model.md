@@ -6,36 +6,36 @@
 
 >
 1.1. Content:
-    - 태그 안에 내용을 넣었을 때 그 내용이 표시되는 영역.
-    - width와 height 속성을 가짐
+    * 태그 안에 내용을 넣었을 때 그 내용이 표시되는 영역.
+    * width와 height 속성을 가짐
 >
 1.2. Padding:
-    - Border 안쪽 여백
-    - 기본 색은 transparent
-    - 요소에 적용된 배경색과 이미지를 따름
+    * Border 안쪽 여백
+    * 기본 색은 transparent
+    * 요소에 적용된 배경색과 이미지를 따름
 >
 1.3. Border:
-    - 테두리 영역
+    * 테두리 영역
 >
 1.4. Margin:
-    - Border 바깥 여백
-    - 배경색 지정할 수 없음
-    - ** 인접한 엘리먼트의 시각적 요소가 없을 때 '마진 겹침 현상'이 발생함!!
+    * Border 바깥 여백
+    * 배경색 지정할 수 없음
+    * ** 인접한 엘리먼트의 시각적 요소가 없을 때 '마진 겹침 현상'이 발생함!!
 
 ## 2. Width, Height 그리고 box-sizing 속성의 관계
 
 >
 2.1. Width, Height
-    - 너비와 높이를 지정하게 되는 속성
-    - 요소의 content-box 속성의 값에 따라 Width와 Height의 기준 영역이 달라짐
+    * 너비와 높이를 지정하게 되는 속성
+    * 요소의 content-box 속성의 값에 따라 Width와 Height의 기준 영역이 달라짐
 >
 2.2. content-box (기본 값)
-    - box-sizing: content-box
-    - box-sizing 속성의 값이 content-box로 지정되어 있으면 요소의 width와 height는 Content 영역의 너비와 너비가 된다.
+    * box-sizing: content-box
+    * box-sizing 속성의 값이 content-box로 지정되어 있으면 요소의 width와 height는 Content 영역의 너비와 너비가 된다.
 >
 2.3. border-box
-    - box-sizing: border-box
-    - box-sizing 속성의 값이 border-box로 지정되어 있으면 요소의 width와 height는 Content + Padding + Border 영역의 너비와 너비가 된다.
+    * box-sizing: border-box
+    * box-sizing 속성의 값이 border-box로 지정되어 있으면 요소의 width와 height는 Content + Padding + Border 영역의 너비와 너비가 된다.
 
 ## 3. Margin, Padding
 
