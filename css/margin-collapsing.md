@@ -54,6 +54,6 @@ element1의 시작적 요소가 없어서 마진 겹침 현상이 발생했기 �
 
 
 > 이러한 마진 겹침 현상을 제거하려면 다음 조건중 1개만 충족하면 된다.
-* parent를 시각적 요소로 만든다 (border를 추가하거나 시각적으로 보이는 내용물을 추가)
-* parent에 overflow: hidden; 이나 overflow: auto;를 추가한다
-* parent의 top과 bottom을 margin -1px, padding 1px 해준다
+* 마진 겹침이 발생하는 원인인 비시각적 요소를 시각적 요소로 만든다 (border를 추가하거나 시각적으로 보이는 내용물을 추가)
+* 마진 겹침이 발생하는 원인인 비시각적 요소에 overflow: hidden; 이나 overflow: auto;를 추가한다
+* 마진 겹침이 발생하는 원인인 비시각적 요소의 margin을 1px 빼주고 padding을 1px 더해준다.
