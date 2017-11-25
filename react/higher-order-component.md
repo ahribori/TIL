@@ -22,6 +22,8 @@ const withName = (WrappedComponent) => {
 
 클래스 형태의 컴포넌트를 받아 강화된 함수형 컴포넌트를 리턴하는 HOC
 ```jsx
+import React from 'react';
+
 const withName = (WrappedComponent) => {
 
     render() {
@@ -29,7 +31,7 @@ const withName = (WrappedComponent) => {
             name: 'ahribori',
         };
 
-        return class EnhancedComponent {
+        return class EnhancedComponent extends React.Component {
             return <WrappedComponent {...props} {...customProps} />
         }
     }
