@@ -11,11 +11,11 @@
 - componentWillReceiveProps(nextProps, nextContext) : if props changed
 - shouldComponentUpdate(nextProps, nextState, nextContext) : Can't use setState()
 
-<br />-------------- if shouldComponentUpdate return true --------------
+-------------- if shouldComponentUpdate return true --------------
 
 - componentWillUpdate(nextProps, nextState, nextContext) : Can't use setState()
 - render() : Can't use setState()
 - componentDidUpdate(prevProps, prevState, prevContext)
 
 ## Unmount
-    - componentWillUnmount() : Can't use setState()
+- componentWillUnmount() : Can't use setState()
