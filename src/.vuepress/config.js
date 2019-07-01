@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/TIL/',
   dest: 'docs',
   title: 'Today I Learned',
   description: 'Daniel\'s TIL',
