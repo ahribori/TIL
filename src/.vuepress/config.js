@@ -61,7 +61,10 @@ module.exports = {
       {
         title: 'React',
         children: [
-          ['concept/functional-programing', 'Functional Programming'],
+          ['react/custom-attribute', 'Data attribute'],
+          ['react/higher-order-component', 'HOC'],
+          ['react/lifecycle', 'Lifecycle'],
+          ['react/support-internet-explorer', 'IE 대응'],
         ],
       },
       {
@@ -73,25 +76,18 @@ module.exports = {
       {
         title: 'Design pattern',
         children: [
-          ['concept/functional-programing', 'Functional Programming'],
+          ['design-pattern/mvc-mvp-mvvm', 'MVC, MVP, MVVM'],
         ],
       },
       {
         title: 'Docker',
         children: [
-          ['concept/functional-programing', 'Functional Programming'],
-        ],
-      },
-      {
-        title: 'Kotlin',
-        children: [
-          ['concept/functional-programing', 'Functional Programming'],
-        ],
-      },
-      {
-        title: 'Linux',
-        children: [
-          ['concept/functional-programing', 'Functional Programming'],
+          ['docker/docker-command', 'Docker 명령어'],
+          ['docker/docker-swarm', 'Docker Swarm'],
+          ['docker/enabling-docker-engine-api-on-remote-docker-host', 'Docker engine remote API 활성화'],
+          ['docker/local-registry', 'Docker local registry'],
+          ['docker/ubuntu-docker-permission-resolve', 'Ubuntu docker permission issue'],
+
         ],
       },
     ],
