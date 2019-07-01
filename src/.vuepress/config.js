@@ -15,7 +15,7 @@ module.exports = {
       {
         title: 'HTML',
         children: [
-          ['concept/functional-programing', 'Functional Programming'],
+          ['html/script-async-defer', '<script> 태그 로딩전략'],
         ],
       },
       {
