@@ -56,6 +56,7 @@ module.exports = {
           ['node.js/proxying-socket.io', 'Proxying Socket.io'],
           ['node.js/socket.io-cluster', 'Socket.io Cluster'],
           ['node.js/amqp-client', 'AMQP Client'],
+          ['node.js/update-all-dependencies', 'Update all dependencies'],
         ],
       },
       {
@@ -87,6 +88,13 @@ module.exports = {
           ['docker/enabling-docker-engine-api-on-remote-docker-host', 'Docker engine remote API 활성화'],
           ['docker/local-registry', 'Docker local registry'],
           ['docker/ubuntu-docker-permission-resolve', 'Ubuntu docker permission issue'],
+
+        ],
+      },
+      {
+        title: 'Linux',
+        children: [
+          ['linux/ubuntu-setting-dns', 'Ubuntu DNS 설정'],
 
         ],
       },
