@@ -19,6 +19,24 @@ module.exports = {
         ],
       },
       {
+        title: 'Javascript',
+        children: [
+          ['javascript/this', 'this'],
+          ['javascript/scope', 'scope'],
+          ['javascript/functional-array-methods', 'Array methods'],
+          ['javascript/for-of', 'for-of'],
+        ],
+      },
+      {
+        title: 'React',
+        children: [
+          ['react/custom-attribute', 'Data attribute'],
+          ['react/higher-order-component', 'HOC'],
+          ['react/lifecycle', 'Lifecycle'],
+          ['react/support-internet-explorer', 'IE 대응'],
+        ],
+      },
+      {
         title: 'CSS',
         children: [
           ['css/background', 'background'],
@@ -40,15 +58,6 @@ module.exports = {
         ],
       },
       {
-        title: 'Javascript',
-        children: [
-          ['javascript/this', 'this'],
-          ['javascript/scope', 'scope'],
-          ['javascript/functional-array-methods', 'Array methods'],
-          ['javascript/for-of', 'for-of'],
-        ],
-      },
-      {
         title: 'Node.js',
         children: [
           ['node.js/express-async-function-as-middleware', 'Express async wrapper'],
@@ -60,12 +69,9 @@ module.exports = {
         ],
       },
       {
-        title: 'React',
+        title: 'Kotlin',
         children: [
-          ['react/custom-attribute', 'Data attribute'],
-          ['react/higher-order-component', 'HOC'],
-          ['react/lifecycle', 'Lifecycle'],
-          ['react/support-internet-explorer', 'IE 대응'],
+          ['kotlin/0.start', '1. 코틀린은 무엇이며 왜 필요한가?'],
         ],
       },
       {
